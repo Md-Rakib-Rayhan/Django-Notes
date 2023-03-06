@@ -1,0 +1,17 @@
+Why should i use django form
+-------
+it's provide defoult valudation
+defoult secutiry,
+data cleanned up
+
+ja html form au kora jay but asob code kore nite hoy
+
+Bound
+----
+Je form a data thake take bound form bole. aitate validation kora jay.
+aita form html a render ba display kore.
+
+UnBound
+----
+je form a data theke nah take unbound form bole. aitate validation kora
+jay nah karon aitate data nai. aita blank form html a render ba display kore.

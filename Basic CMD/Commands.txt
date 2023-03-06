@@ -1,0 +1,62 @@
+Note: capital letter used here for identify that you can change it but it's not necessary to make it always capital in use case
+
+Create Virtual Environment
+--------------------------------
+python -m venv NAMEHERE
+py -m venv NAMEHERE
+
+
+Activate The Virtual Environment
+------------------------
+NAMEHERE\Scripts\activate.bat
+
+Deactivate -> deactivate
+
+
+Intstall Django
+------------------
+pip install django
+
+
+Create Project
+------------------
+django-admin startproject PROJECTNAME
+
+then cd PROJECTNAME	- cuz our full work will done inside this folder
+
+
+Run Project
+-----------
+py manage.py runserver
+
+if need to use the cmd/terminal again press CTRL + C 
+
+
+Create APP
+---------------
+py manage.py startapp AppName
+
+
+
+Then You Need to Install The App in Sattings.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

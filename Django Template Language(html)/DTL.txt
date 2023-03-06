@@ -1,0 +1,62 @@
+{{ Variable }}
+{% Tag %}
+	{% static 'hello/css/style.css' %}
+	{% url 'home' %}      {% url 'home' as hm %} variable soto korar jonno
+
+
+Use Case
+----------
+View theke Data Dictonary/Object theke Html a pass hoy
+Normal Data variable a Dictonary key value diye use kora jay
+R Queary Set jetate akadhit data thake seta For loop use kore Show korano hoy
+	example - {% for costomerdata %}
+			{{costomerdata.id}}
+			{{costomerdata.name}}
+		  {% endfor %}
+		 -tag a variable besi boro hobe -> for costomerdata as cd -> use kore next a cd.id use kora jabe
+		 example -{% for costomerdata as cd%}
+			{{cd.id}}
+
+Current Location / Urls
+-----------------------
+{{ request.path }}
+	--->> black/home a thakele output/url thakbe aita '/' R onno golo thakle "about/" aivabe thakbe
+	--> If Else condition use kore button active o onnano kaje use kora jay
+	--> example inside class tag -> {%if request.path == '/'%} active {% endif %} -> active a css set kora ase
+
+
+Identify Which Product is Clicked
+-----------------------------
+<a href="{% url 'product-detail' b.id %}"> - url folder a explain kora ase
+........
+</a>
+
+
+
+
+GET VS POST
+------------
+GET 
+---
+aitate CSRF Token Use korte hoy nah
+Normal Searching a use koray jay (er data url a show hoy)
+Password and Personal Related kaje use kora jabe nah
+Form/views theke Blank Form(login form) asle GET methon a ase (Html a POST dilei Blank thakle aita GET hisebe ase)
+
+ 
+
+POST
+-------------
+CSRF Token Use korte hoy
+Security (login) Related kaje use kora hoy
+
+
+
+
+
+
+
+
+
+
+
