@@ -66,5 +66,3 @@ exam -> def product(request, pt):
 
 ![imf](./path-con.png)
 
-
-<!-- # 67 Custom path converter -->
