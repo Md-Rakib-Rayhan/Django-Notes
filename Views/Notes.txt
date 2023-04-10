@@ -1,0 +1,3 @@
+request.user -> aita object er vitor user er sokol info thake
+	
+	aita bivinno vabe use kora jay request.user.username, request.user.is_authenticate, request.user.is_superuser etc
